@@ -1,7 +1,7 @@
 {
   "name": "SendMeal-FakeAPI",
   "version": "1.0.0",
-  "description": "API Rest basada en JSON-Server para complemetar el laboratorio de DAM(Diseño de Aplicaicones Mobiles)",
+  "description": "API Rest basada en JSON-Server para complemetar el laboratorio de DAM(Diseño de Aplicaciones Mobiles)",
   "main": "server.js",
   "author": "Federico Madoery",
   "license": "MIT",
