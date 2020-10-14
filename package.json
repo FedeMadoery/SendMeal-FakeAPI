@@ -1,0 +1,16 @@
+{
+  "name": "SendMeal-FakeAPI",
+  "version": "1.0.0",
+  "description": "API Rest basada en JSON-Server para complemetar el laboratorio de DAM(Diseño de Aplicaicones Mobiles)",
+  "main": "server.js",
+  "author": "Federico Madoery",
+  "license": "MIT",
+  "scripts": {
+    "start": "npm install && node server.js",
+    "create-meals": "node -e 'require(\"./mealGenerator\").creator()'"
+  },
+  "dependencies": {
+    "json-server": "^0.16.2",
+    "faker": "^5.1.0"
+  }
+}
