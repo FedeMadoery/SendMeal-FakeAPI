@@ -1,5 +1,5 @@
 {
-  "meals": [
+  "platos": [
     {
       "id": "ea6f753e-5f77-465c-ab3e-ffda6dbe763a",
       "titulo": "Transition ut",
@@ -211,5 +211,5 @@
       "calorias": 117
     }
   ],
-  "deliveryOrder": [  ]
+  "pedidos": []
 }

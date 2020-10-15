@@ -14,7 +14,7 @@ exports.creator = async function () {
     console.log(meal.titulo)
     return meal;
   });
-  const mealsToStore = JSON.stringify({meals, deliveryOrder: []});
+  const mealsToStore = JSON.stringify({platos: meals, pedidos: []});
   fs.writeFile('db.json', mealsToStore, 'utf8', (err, data) => {
     if (err){
       console.log(err);

@@ -34,3 +34,24 @@ npm start
 `npm create-meals` - 
 Realiza la creación inicial de la base de datos, con 30 platos (meals) y 0 pedidos (deliveryOrder) por default.
 ###### (:warning: Si ya tienes platos o pedidos guardados, te los va a borrar.)
+
+### Estructura de los datos
+
+```
+#Platos
+{
+    id
+    titulo
+    descripcion
+    precio
+    calorias
+}
+
+#Pedidos
+{
+    id
+    platosId: [platoId <, platoId, ...>]
+    ...
+}
+
+```
