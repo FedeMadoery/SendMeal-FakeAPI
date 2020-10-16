@@ -10,7 +10,8 @@
     "create-meals": "node -e 'require(\"./mealGenerator\").creator()'"
   },
   "dependencies": {
+    "faker": "^5.1.0",
     "json-server": "^0.16.2",
-    "faker": "^5.1.0"
+    "uuid": "^8.3.1"
   }
 }

@@ -1,5 +1,6 @@
 // Imports
 const jsonServer = require('json-server');
+const { v4: uuidv4 } = require('uuid')
 const server = jsonServer.create();
 const path = require('path');
 // Setup JsonServer
@@ -12,6 +13,7 @@ server.use(jsonServer.bodyParser);
 server.use(async (req, res, next) => {
   switch (req.method) {
     case 'POST':
+      req.body = {...req.body, id: uuidv4()}
       await enteringInToTheBlackHole(500);
       break;
     case 'GET':
